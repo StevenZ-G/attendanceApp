@@ -12,9 +12,10 @@ import axios from 'axios';
 import { estaConectado } from '../utils/network';
 import { obtenerAsistenciasOffline, limpiarAsistenciasOffline } from '../utils/offlineStorage';
 import { StatusBar } from 'expo-status-bar';
+import { URL_BACKEND } from '../env';
 
 //const URL_BACKEND = 'http://192.168.1.56:3000/api'; 
-const URL_BACKEND = 'https://76d3-190-63-37-170.ngrok-free.app/api';
+//const URL_BACKEND = '';
 
 const HomeScreen = () => {
   const [userRol, setUserRol] = useState(null);

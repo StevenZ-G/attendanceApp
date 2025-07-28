@@ -1,7 +1,8 @@
 // src/data/api/api.js
 import axios from 'axios';
+import { BASE_URL } from '../env';
 
-const BASE_URL = 'https://76d3-190-63-37-170.ngrok-free.app/api';
+//const BASE_URL = '';
 //const BASE_URL = 'http://192.168.1.56:3000/api'
 
 const api = axios.create({
